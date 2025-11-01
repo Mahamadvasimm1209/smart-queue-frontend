@@ -1,0 +1,89 @@
+/* 🌟 Layout & Font */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f5fb;
+  margin: 0;
+  color: #2b2b3c;
+}
+
+/* 🌟 Navbar */
+header {
+  background: #4a3aff;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Main Content */
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#root {
+  width: 600px;
+}
+
+/* 🌟 Cards */
+section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px 30px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #333c75;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+/* 🌟 Buttons */
+button {
+  background-color: #4a3aff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #372dcc;
+}
+
+/* 🌟 Inputs */
+select,
+input {
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+/* 🌟 JSON Display */
+pre {
+  background: #f1f3ff;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* 🌟 Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  color: #777;
+  font-size: 0.9rem;
+  background: #f0f0f8;
+  margin-top: 40px;
+}
